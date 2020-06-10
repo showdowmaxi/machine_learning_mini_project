@@ -1,0 +1,27 @@
+// the following is the way to activate python 2.7 environment if you // run different python version in your device 
+source ~/anaconda3/etc/profile.d/conda.sh
+
+run python 2.7 apply following in git command:
+conda activate py27
+
+terminate python 2.7 apply following in git command:
+conda deactivate py27
+
+or
+for Windows:
+Install Git Bash
+Open Git Bash
+type source ~/anaconda3/etc/profile.d/conda.sh
+type conda init
+Restart your shell
+Profit.
+
+run python 2.7 apply following in git command:
+source activate py27
+
+
+
+terminate python 2.7 apply following in git command:
+conda deactivate
+
+
